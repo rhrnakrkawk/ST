@@ -17,7 +17,7 @@ class MyFrame(Frame):
         self.lb_dronestate = Label(master, text = "drone state : ")
         self.lb_dronestate.place(x=20, y=100)
         
-        self.lb_curdronestate = Label(master, text = "no progress")
+        self.lb_curdronestate = Label(master, text = "nomal")
         self.lb_curdronestate.place(x=90, y=100)
         
     def sett(self, text1):
